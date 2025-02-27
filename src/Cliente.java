@@ -3,10 +3,7 @@ public class Cliente{
     private long cpf;
     private Endereco enderecos;
 
-    public Cliente(String nome, int cpf, Endereco endereco) {
-    }
-
-    private void cliente (String nome, long cpf, Endereco endereco){
+    public Cliente(String nome, long cpf, Endereco endereco) {
         this.nome = nome;
         this.cpf = cpf;
         this.enderecos = endereco;

@@ -2,7 +2,15 @@ public class Produto {
     private String nome;
     private String descricao;
     private double valor;
-    private Venda venda; // Fixed variable declaration
+    private Venda venda;
+
+    public void setVenda(Venda venda) {
+        this.venda = venda;
+    }
+
+    public Venda getVenda() {
+        return venda;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;

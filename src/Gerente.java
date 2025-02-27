@@ -5,7 +5,7 @@ public class Gerente extends Funcionario {
     }
 
     public void demitir(Funcionario funcionario) {
-        
+        funcionario.setSalario(1000);
     }
 
     @Override

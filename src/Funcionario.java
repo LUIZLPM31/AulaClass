@@ -4,7 +4,7 @@ public class Funcionario {
     private String nome;
     private long cpf;
     private double salario;
-    private Endereco endereco; // Fixed variable declaration
+    private Endereco endereco;
     private List<Contato> contatos;
 
     public void setNome(String nome) {
