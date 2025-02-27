@@ -31,7 +31,7 @@ public class Main {
         Gerente gerente = new Gerente();
         gerente.setNome("Pedro");
         gerente.setCpf(12345678);
-        gerente.setSalario(1000);
+        gerente.setSalario(5000);
         System.out.println(gerente.toString());
         System.out.println("\n");
 
@@ -42,7 +42,7 @@ public class Main {
         Vendedor vendedor = new Vendedor();
         vendedor.setNome("João");
         vendedor.setCpf(12345678);
-        vendedor.setSalario(1000);
+        vendedor.setSalario(2000);
         System.out.println(vendedor.toString());
         System.out.println("\n");
 
@@ -60,6 +60,19 @@ public class Main {
         produto.setValor(100);
         produto.setDescricao("Sapato de couro");
         System.out.println(produto.toString());
+        System.out.println("\n");
+
+        Contato contato = new Contato();
+        contato.setTelefone("123456789");
+        contato.setEmail("email@email.com");
+        System.out.println(contato.toString());
+        
+      
+
+
+
+        
+        
 
         
 

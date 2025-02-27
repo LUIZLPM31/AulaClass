@@ -12,7 +12,7 @@ public class Vendedor extends Funcionario {
     }
 
     public double receberComissao() {
-        return 0; // Placeholder for commission calculation implementation
+        return 0; 
     }
 
     @Override

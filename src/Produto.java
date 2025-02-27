@@ -43,4 +43,5 @@ public class Produto {
                "Descrição: " + descricao + "\n" +
                "Valor: " + valor + "\n"; // Removed the extra comma
     }
+
 }
