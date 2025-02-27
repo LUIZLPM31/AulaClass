@@ -10,10 +10,13 @@ public class Main {
 
         Cliente cliente = new Cliente( "Luiz", 12345678,endereco);
         System.out.println(cliente.toString());
-        Contato contato = new Contato();
-        contato.setTelefone("123456789");
-        contato.setEmail("luiz@gmail.com"); 
-        System.out.println(contato.toString());
+
+        Funcionario funcionario = new Funcionario();
+        funcionario.setNome("Luiz");
+        funcionario.setCpf(12345678);
+        funcionario.setSalario(1000);
+        funcionario.setEndereco(endereco);
+        System.out.println(funcionario.toString());
         
 
 
